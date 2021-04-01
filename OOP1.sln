@@ -3,15 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1", "OOP1\OOP1.csproj", "{4FE8C080-8A9C-4918-B777-8DFBD3C5951F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", "{4FE8C080-8A9C-4918-B777-8DFBD3C5951F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koleksiyonlar", "Koleksiyonlar\Koleksiyonlar.csproj", "{22A578D3-745C-44AA-9254-D38737BAAD16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Koleksiyonlar", "Koleksiyonlar\Koleksiyonlar.csproj", "{22A578D3-745C-44AA-9254-D38737BAAD16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{27E52839-7BC9-418F-8ED7-7D433AA99ECC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{27E52839-7BC9-418F-8ED7-7D433AA99ECC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2", "OOP2\OOP2.csproj", "{9CF9CD21-7FC0-4435-B3A1-D66AF829EC9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP2", "OOP2\OOP2.csproj", "{9CF9CD21-7FC0-4435-B3A1-D66AF829EC9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP3", "OOP3\OOP3.csproj", "{05542846-CC88-4739-85B1-CFB50B9CC217}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3", "OOP3\OOP3.csproj", "{05542846-CC88-4739-85B1-CFB50B9CC217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP4", "OOP4\OOP4.csproj", "{C2861B9D-B102-401E-AAE2-6C7B95A7C056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{0E9C6740-549C-484D-92D5-EA6AD35CFA9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{A0C3D45C-C49F-4B9F-B713-01CEA33A0CCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritances", "Inheritances\Inheritances.csproj", "{CADBF163-4994-4CE7-AFF9-69F07ADAD8C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{05542846-CC88-4739-85B1-CFB50B9CC217}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05542846-CC88-4739-85B1-CFB50B9CC217}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05542846-CC88-4739-85B1-CFB50B9CC217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2861B9D-B102-401E-AAE2-6C7B95A7C056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2861B9D-B102-401E-AAE2-6C7B95A7C056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2861B9D-B102-401E-AAE2-6C7B95A7C056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2861B9D-B102-401E-AAE2-6C7B95A7C056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E9C6740-549C-484D-92D5-EA6AD35CFA9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9C6740-549C-484D-92D5-EA6AD35CFA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E9C6740-549C-484D-92D5-EA6AD35CFA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E9C6740-549C-484D-92D5-EA6AD35CFA9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C3D45C-C49F-4B9F-B713-01CEA33A0CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C3D45C-C49F-4B9F-B713-01CEA33A0CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C3D45C-C49F-4B9F-B713-01CEA33A0CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C3D45C-C49F-4B9F-B713-01CEA33A0CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CADBF163-4994-4CE7-AFF9-69F07ADAD8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADBF163-4994-4CE7-AFF9-69F07ADAD8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADBF163-4994-4CE7-AFF9-69F07ADAD8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADBF163-4994-4CE7-AFF9-69F07ADAD8C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
